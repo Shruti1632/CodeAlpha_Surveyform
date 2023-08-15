@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+		Survey Form for COVID vaccination
+	</title>
+
+	<style>
+		body {
+			background-image: url('Surveybg.jpg');
+			background-repeat:repeat;
+			background-attachment:fixed;
+			font-family: Verdana;
+			text-align: center;
+		}
+		form {
+			background-color: #fff;
+			max-width: 500px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+		}
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+		}
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+		button {
+			background-color: #05c46b;
+			border: 1px solid #777;
+			border-radius: 5px;
+			font-family: Sans-serif;
+			font-size: 21px;
+			display: block;
+			width: 100%;
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+	</style>
+</head>
+
+<body>
+	<img
+	<h1 style="color:rgb(255, 255, 255);">Survey Form for COVID Vaccination</h1>
+
+	<form id="form">
+
+		<div class="form-control">
+			<label for="Name" id="label-Name">
+				Name
+			</label>
+
+			<input type="text"
+				id="Name"
+				placeholder="Enter your name" />
+		</div>
+
+		<div class="form-control">
+			<label for="Email" id="label-Email">
+				Email
+			</label>
+
+			<input type="Email"
+				id="Email"
+				placeholder="abc@gmail.com" />
+		</div>
+
+		<div class="form-control">
+			<label for="Age" id="label-Age">
+				Age
+			</label>
+
+			<input type="text"
+				id="Age"
+				placeholder="Enter your age" />
+		</div>
+
+		<div class="form-control">
+			<label for="Contact no" id="label-Contact no">
+				Contact no
+			</label>
+
+            <input type="text"
+				id="Contact no"
+				placeholder="Enter your registered contact no" />
+		</div>
+			
+            <div class="form-control">
+                <label for="First Vaccine" id="label-First Vaccine">
+                    First vaccine done or not?
+                </label>
+    
+			<select name="First Vaccine" id="First Vaccine">
+				<option value="YES">YES</option>
+				<option value="NO">NO</option>
+			</select>
+		</div>
+
+        <div class="form-control">
+			<label for="Fist Vaccine" id="label-First Vaccine">
+				Mention the date of your first vaccination
+			</label>
+
+			<input type="date"
+				id="First Vaccine"
+				placeholder="Mention the date of your first vaccination" />
+		</div>
+
+        <div class="form-control">
+            <label for="Second Vaccine" id="label-Second Vaccine">
+                Second vaccine done or not?
+            </label>
+
+        <select name="Second Vaccine" id="Second Vaccine">
+            <option value="YES">YES</option>
+            <option value="NO">NO</option>
+        </select>
+    </div>
+
+    <div class="form-control">
+        <label for="Second Vaccine" id="label-Second Vaccine">
+            Mention the date of your second vaccination
+        </label>
+
+        <input type="date"
+            id="Second Vaccine"
+            placeholder="Mention the date of your second vaccination" />
+    </div>
+
+    <div class="form-control">
+        <label for="BOOSTER Dose" id="label-BOOSTER Dose">
+            BOOSTER Dose done or not?
+        </label>
+
+    <select name="BOOSTER Dose" id="BOOSTER Dose">
+        <option value="YES">YES</option>
+        <option value="NO">NO</option>
+    </select>
+</div>
+
+<div class="form-control">
+    <label for="BOOSTER Dose" id="label-BOOSTER Dose">
+        Mention the date of your BOOSTER vaccination
+    </label>
+
+    <input type="date"
+        id="BOOSTER Dose"
+        placeholder="Mention the date of your BOOSTER vaccination" />
+</div>
+
+        <div class="form-control">
+			<label>
+				Would you recommend 
+				to get Email updates?
+			</label>
+
+			<label for="recommed-1">
+				<input type="radio"
+					id="recommed-1"
+					name="recommed">Yes</input>
+			</label>
+			<label for="recommed-2">
+				<input type="radio"
+					id="recommed-2"
+					name="recommed">No</input>
+			</label>
+		</div>
+
+		<button type="Submit" value="Submit">
+			Submit
+		</button>
+	</form>
+</body>
+
+</html>
